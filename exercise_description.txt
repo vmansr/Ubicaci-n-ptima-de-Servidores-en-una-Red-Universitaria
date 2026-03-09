@@ -1,0 +1,72 @@
+Trabajo: caso de aplicación 
+Descripción de la actividad y pautas de elaboración 
+A continuación, se plantea una situación que debe resolver usando Programación Lineal 
+Entera. El informe se debe elaborar sobre esta misma plantilla, usando Word o un 
+procesador de texto similar, y se debe entregar únicamente como un solo archivo en 
+formato PDF con máximo 10 páginas. Es necesario que emplee una herramienta como 
+el editor de ecuaciones para representar adecuadamente todas las expresiones 
+matemáticas. Las tablas y gráficas se deben realizar de acuerdo con el estilo APA  
+ 
+Ubicación óptima de servidores en una red universitaria 
+Cierta universidad está modernizando su red para soportar nuevas aplicaciones que 
+hacen uso intensivo de Inteligencia Artificial. Se ha decidido instalar servidores locales 
+en diferentes ubicaciones, con el fin de reducir la latencia. El proyecto aborda 
+inicialmente cinco facultades; el costo de instalar un servidor en cada una de ellas se 
+presenta en la Tabla 1. Aunque cada facultad puede potencialmente albergar un 
+servidor, el presupuesto disponible es solo de $30.000. 
+ 
+Tabla 1. Costo de instalación de un servidor por cada facultad. 
+Identificador Nombre Costo de instalación 
+1 Facultad de Ingeniería $12.000  
+2 Facultad de Ciencias $10.000  
+3 Facultad de Economía $8.000  
+4 Facultad de Educación $7.000  
+5 Facultad de Salud $9.500  
+Fuente: Elaboración propia. 
+ 
+La latencia, en ms, entre la facultad 𝑖 y un servidor ubicado en la facultad 𝑗, se muestra 
+en la Tabla 2. Un servidor puede atender a más de una facultad, pero cada facultad debe 
+ser atendida por exactamente un servidor. 
+ 
+Tabla 2. Matriz de latencias 𝑑௜௝, medidas en ms. 
+𝒅𝒊𝒋 1 2 3 4 5 
+1 2 6 8 7 9 
+
+2 6 2 6 5 7 
+3 8 6 2 4 6 
+4 7 5 4 2 5 
+5 9 7 6 5 2 
+Fuente: Elaboración propia. 
+ 
+Como Ingeniero Informático, debe diseñar y resolver un modelo que minimice la latencia 
+total del sistema, respetando la restricción presupuestaria. Específicamente, se requiere 
+que lleve a cabo las siguientes tareas: 
+ 
+1. Modelar el problema de Programación Lineal Entera 
+a) Defina las variables de decisión 
+b) Construya la función objetivo 
+c) Establezca las restricciones 
+d) Presente la instancia completa del modelo 
+2. Solución del problema de programación Lineal Entera 
+a) Implemente la instancia del modelo en Python usando una biblioteca como 
+Pyomo 
+b) Halle la solución 
+3. Interpretación de resultados 
+a) ¿En cuáles facultades deben instalarse los servidores? 
+b) ¿Cuál es el costo total del proyecto? 
+c) ¿Cuál es la latencia total del sistema? 
+d) ¿La solución hallada es única? Explique su respuesta. 
+4. Conclusiones de la actividad 
+En máximo dos párrafos, escriba las conclusiones de la actividad, haciendo énfasis 
+en su percepción sobre la utilidad de este tipo de modelos de optimización desde la 
+perspectiva académica y profesional. 
+ 
+Objetivos 
+ Modelar una situación de optimización de infraestructura como un problema de 
+Programación Lineal Entera. 
+
+ Implementar la instancia del modelo y hallar la solución, usando el lenguaje de 
+programación Python y una biblioteca como Pyomo. 
+ Analizar los resultados obtenidos en el contexto de la situación propuesta con el fin 
+de apoyar la toma de decisiones con datos y herramientas matemáticas. 
+ 

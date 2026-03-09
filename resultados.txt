@@ -1,0 +1,18 @@
+Estado de la solución: ok
+Condición de terminación: optimal
+
+--- Resultados de la Optimización ---
+Latencia total mínima: 15.0 ms
+Costo total de instalación: $29000.0
+
+Ubicación de servidores:
+ - Facultad 1 (Ingeniería) (Costo: $12000)
+ - Facultad 2 (Ciencias) (Costo: $10000)
+ - Facultad 4 (Educación) (Costo: $7000)
+
+Asignación de facultades a servidores:
+ - Ingeniería -> Ingeniería [Latencia: 2 ms]
+ - Ciencias -> Ciencias [Latencia: 2 ms]
+ - Economía -> Educación [Latencia: 4 ms]
+ - Educación -> Educación [Latencia: 2 ms]
+ - Salud -> Educación [Latencia: 5 ms]
